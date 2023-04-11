@@ -74,7 +74,7 @@ pasta = 'C:\\Nova pasta'
 arq = ler_arquivos(pasta)
 
 # Conectando com banco de dados
-cursor = conect_db('SQL Server', '10.11.79.213', 'INTEG_ENGIE', 'guilherme_simas_ti', '*******************')
+cursor = conect_db('SQL Server', '186.286.7.00', 'DW_AUX', 'guilherme_simas_ti', '*******************')
 
 # inicia repeticao de leitura e insercao no banco
 for table in range(len(arq)):
